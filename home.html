@@ -1,0 +1,84 @@
+<!-- declaration that defines this document as HTML5 -->
+<!DOCTYPE html>
+<html>
+   <!-- title of website and link to CSS file -->
+   <head>
+      <meta charset="utf-8">
+      <title>The HAUKAI Restaurant</title>
+      <link rel="stylesheet" type="text/css" href="css/styles.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+
+   <!-- Body is the visible content on the website page -->
+   <body>
+
+      <!-- main header as h1 used across all pages of the website -->
+      <div aria-roledescription="header">
+      <header>
+         <h1>THE HAUKAI Restaurant</h1>
+      </header>
+      </div>
+
+      <!-- Navigation Bar with links to the other pages, as well as logo with link to home -->
+      <div aria-roledescription="navigation">
+      <nav>
+         <a href="home.html"><img src="images/logo.png" width="50" id="logo" title="Home"></a>
+         <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="hours2.html">HOURS</a></li>
+            <li><a href="menu2.html">MENU</a></li>
+            <li><a href="reservations2.html">RESERVATIONS</a></li>
+            <li><a href="contact2.html">CONTACT</a></li>
+            </ul>
+      </nav>
+      </div>
+
+      <!-- Main page content -->
+      <div aria-roledescription="main">
+      <main>
+         <article>
+            <!-- h2 header on page but wanted to make this h2 header bigger, therefore identified this element in the CSS file as 'welcometitle' -->
+            <div id=welcometitle>
+               <h2><em>Nau mai, haere mai</em> </h2>
+               </div>
+               <!-- standard paragraph text on page but wanted to make this <p> bigger, therefore identified this element in the CSS file as 'welcometext' -->
+               <div id=welcometext>
+               <p>Welcome to <strong>The Haukai Restaurant</strong>. We specialise in <b>Maori kai and culture</b> and we promise to give you a unique and amazing dining experience.</p>
+               <p>We welcome visitors from outside the region and our local residents to try inspiring and genuine tastes of New Zealand.</p>
+            </div>
+         </article>
+         <br>
+
+         <!-- images with alt text and titles for accessibiity -->
+         <article>
+            <div class="homeimgs">
+            <img src="images/venisonhomev2.jpg" alt="Venison with Horopito, served with glazed plums and red Jus, cabbage salad on the side" title="Venison" width="25%">
+            </div>
+            <div class="homeimgs">
+            <img src="images/icecreamhome.jpg" alt="Kapiti Icecream showing a vaiety of flavours" title="Kapiti Icecream" width="25%">
+            </div>
+            <div class="homeimgs">
+            <img src="images/fishhomev2.jpg" alt="Fish of the day served with side salad" title="Fish" width="25%">
+            </div>
+         </article>
+         <br>
+         <br>
+            <p>Location: <b>1 Island Street, Kerikeri, Bay of Islands</b></p>
+            <p>Opening Hours: <b>Wednesday to Sunday, 5pm - 11pm</b></p>
+            <br>
+            <!-- Links to the Reservations page and to the Vouchers page - Note page for Vouchers is not a working page in this assignment -->
+            <!-- Assignment 3 addition of a link to a Staff page, accessible from the Home page only -->
+            <div id=links>
+               <p><a href="reservations2.html">RESERVATIONS</a></p>
+               <p><a href="vouchers.html">VOUCHERS</a></p>
+               <p><a href="staff.html">STAFF</a></p>
+            </div>
+      </main>
+      </div>
+
+      <!-- Footer used across all pages of website -->
+      <footer>
+         <p>Copyright 2019 by The Haukai Restaurant. Address: 1 Island St, Kerikeri, Bay of Islands. Phone 09 401 4019. Sitemap.</p>
+      </footer>
+   </body>
+</html>

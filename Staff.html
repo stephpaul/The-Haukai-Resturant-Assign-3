@@ -1,0 +1,119 @@
+<!--declaration that defines this document as HTML5-->
+<!DOCTYPE html>
+<html>
+    <!-- title of website and link to CSS file -->
+    <head>
+        <meta charset="utf-8">
+        <title>The HAUKAI Restaurant</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <!--Body is all visible content on the website page-->
+    <body>
+        <!--main header as h1 used across all pages of the website-->
+        <div aria-roledescription="header">
+        <header>
+            <h1>Staff</h1>
+        </header>
+        </div>
+
+        <!--Navigation Bar with links to the other pages, as well as logo with link to home-->
+        <div aria-roledescription="navigation">
+        <nav>
+            <a href="home.html"><img src="images/logo.png" width="50" id="logo" title="Home"></a>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="hours2.html">HOURS</a></li>
+                <li><a href="menu2.html">MENU</a></li>
+                <li><a href="reservations2.html">RESERVATIONS</a></li>
+                <li><a href="contact2.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        </div>
+
+        <!--Main page content-->
+        <div aria-roledescription="main">
+        <main>
+           <!-- Links to toggle between the Home page and the Staff page -->
+            <!-- Also identified this element in the CSS file for styling of the links (using the same styling as the menu links for consistency)  -->
+            <div id=menulinks>
+                <p><a href="home.html">HOME</a></p>
+                <p><a href="staff.html">STAFF</a></p>
+            </div>
+            <hr>
+            <!-- Link to the second week roster which would display the next block of calendar dates. But noted that the 'next week' link is not a working link in this assignment -->
+            <!--In the full working site, once on the 'next week' page, then this link would display as 'previous week'. Hence providing the 2 week view of the roster schedule -->
+            <div id=rosterweek>
+                <p><a href="staffweek2.html">NEXT WEEK</a></p>
+                </div>
+            <!-- table for page layout. Table identifies name and phone number and pre-entered schedules as static data -->
+            <table style="width:100%" id="tablefont">
+                <tr>
+                    <th>Name (phone)</th>
+                    <th>W  8/7/20</th>
+                    <th>Th  9/4/20</th>
+                    <th>F  10/7/20</th>
+                    <th>S  11/7/20</th>
+                    <th>Su  12/7/20</th>
+                </tr>
+                <tr>
+                    <td>Olivia Jones (022 123456)</td>
+                    <td>18:00-22:00</td>
+                    <td></td>
+                    <td>18:00-22:00</td>
+                    <td></td>
+                    <td>16:00-20:00</td>
+                </tr>
+                <tr>
+                    <td>Tom Smith (021 987654)</td>
+                    <td>12:00-20:00</td>
+                    <td>12:00-20:00</td>
+                    <td>12:00-20:00</td>
+                    <td>12:00-20:00</td>
+                    <td>12:00-20:00</td>
+                </tr>
+                <tr>
+                    <td>Sam White (021 456123)</td>
+                    <td>12:00-18:00</td>
+                    <td>12:00-18:00</td>
+                    <td>12:00-18:00</td>
+                    <td>12:00-18:00</td>
+                    <td>12:00-18:00</td>
+                </tr>
+                <tr>
+                    <td>Sally Joe (022 258369)</td>
+                    <td></td>
+                    <td>17:00-22:00</td>
+                    <td>17:00-22:00</td>
+                    <td></td>
+                    <td>17:00-22:00</td>
+                </tr>
+                <tr>
+                    <td>Jane Black (022 741258)</td>
+                    <td>15:00-20:00</td>
+                    <td></td>
+                    <td></td>
+                    <td>15:00-20:00</td>
+                    <td>18:00-22:00</td>
+                </tr>
+                <tr>
+                    <td>Zoe Bell (021 369852)</td>
+                    <td>12:00-20:00</td>
+                    <td></td>
+                    <td></td>
+                    <td>16:00-22:00</td>
+                    <td>16:00-22:00</td>
+                </tr>
+            </table>
+            <br>
+            <hr>
+        </main>
+        </div>
+
+        <!--Footer used across all pages of website-->
+        <footer>
+            <p>Copyright 2019 by The Haukai Restaurant. Address: 1 Island St, Kerikeri, Bay of Islands. Phone 09 401 4019. Sitemap.</p>
+        </footer>
+    </body>
+</html>

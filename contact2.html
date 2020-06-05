@@ -1,0 +1,63 @@
+<!--declaration that defines this document as HTML5-->
+<!DOCTYPE html>
+<html>
+    <!-- title of website and link to CSS file -->
+    <head>
+        <meta charset="utf-8">
+        <title>The HAUKAI Restaurant</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <!--Body is the visible content on the website page-->
+    <body>
+        <!--main header as h1 used across all pages of the website-->
+        <div aria-roledescription="header">
+        <header>
+            <h1>Contact</h1>
+        </header>
+        </div>
+
+        <!--Navigation Bar with links to the other pages, as well as logo with link to home-->
+        <div aria-roledescription="navigation">
+        <nav>
+            <a href="home.html"><img src="images/logo.png" width="50" id="logo" title="Home"></a>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="hours2.html">HOURS</a></li>
+                <li><a href="menu2.html">MENU</a></li>
+                <li><a href="reservations2.html">RESERVATIONS</a></li>
+                <li><a href="contact2.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        </div>
+
+        <!--Main page content but not including tag <main> as the CSS styling centres all main content. But this contact info needs to be left aligned with the map right aligned. -->
+        <div id=hours>
+            <h2><b>Open for dinner: Wed - Sun, 5pm - 11pm</b></h2>
+        </div>
+        <br>
+        <div class="row">
+            <div class="column">
+                <!-- use of h3 and tag <strong> to emphasise the important information of phone number, email and address, on the contact page when read by a screen reader -->
+                <p>Phone:</p>
+                <h3><strong>09 401 4019</strong></h3>
+                <br>
+                <p>Email:</p>
+                <h3><strong>Haukai@gmail.com</strong></h3>
+                <br>
+                <p>Address:</p>
+                <h3><strong>1 Island Street, Kerikeri, Bay of Islands</strong></h3>
+                </div>
+            <div class="column"></div>
+                <!-- iframe insert of google map -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3076.205577856212!2d173.94730794216113!3d-35.22822579937711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0bb76f05800a6d%3A0x912328fde4819391!2sHaukai%20Restaurant!5e0!3m2!1sen!2snz!4v1586590187781!5m2!1sen!2snz" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <br>
+
+        <!--Footer used across all pages of website-->
+        <footer>
+            <p>Copyright 2019 by The Haukai Restaurant. Address: 1 Island St, Kerikeri, Bay of Islands. Phone 09 401 4019. Sitemap.</p>
+        </footer>
+    </body>
+</html>

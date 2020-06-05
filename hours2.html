@@ -1,0 +1,54 @@
+<!--declaration that defines this document as HTML5-->
+<!DOCTYPE html>
+<html>
+    <!-- title of website and link to CSS file -->
+    <head>
+        <meta charset="utf-8">
+        <title>The HAUKAI Restaurant</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <!--Body is the visible content on the website page-->
+    <body>
+
+        <!--main header as h1 used across all pages of the website-->
+        <div aria-roledescription="header">
+        <header>
+            <h1>Hours</h1>
+        </header>
+        </div>
+
+        <!--Navigation Bar with links to the other pages, as well as logo with link to home-->
+        <div aria-roledescription="navigation">
+        <nav>
+            <a href="home.html"><img src="images/logo.png" width="50" id="logo" title="Home"></a>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="hours2.html">HOURS</a></li>
+                <li><a href="menu2.html">MENU</a></li>
+                <li><a href="reservations2.html">RESERVATIONS</a></li>
+                <li><a href="contact2.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        </div>
+
+        <!--Main page content-->
+        <div aria-roledescription="main">
+        <main>
+            <div id=hours>
+                <h2><b>Open for dinner: Wed - Sun, 5pm - 11pm</b></h2>
+                <br>
+            </div>
+            <h3>Check Availability</h3>
+            <!-- iframe insert of google calendar -->
+            <iframe src="https://calendar.google.com/calendar/embed?height=500&amp;wkst=1&amp;bgcolor=%23A79B8E&amp;ctz=Pacific%2FAuckland&amp;src=MDRvYm82b3A3ODFzNzA3Z3JzZ2VnZzVjbGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%237CB342&amp;title=Dining%20Availibility" style="border:solid 1px #777" width="500" height="500" frameborder="0" scrolling="no" id="calender"></iframe>
+        </main>
+        </div>
+
+        <!--Footer used across all pages of website-->
+        <footer>
+            <p>Copyright 2019 by The Haukai Restaurant. Address: 1 Island St, Kerikeri, Bay of Islands. Phone 09 401 4019. Sitemap.</p>
+        </footer>
+    </body>
+</html>

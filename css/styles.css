@@ -1,0 +1,140 @@
+/* body is all visible content on the webpage and includes the backgroud colour as white, font arial */
+body {
+    background-color: rgb(250, 250, 250);
+    font-family: Arial;
+    max-width: 910px;
+    margin: 0 auto;
+}
+/* all content within <main> is centered, background white with slight padding */
+main {
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+}
+/* this is the page banner across all pages */
+nav {
+    background-image: url("../images/nztree.jpg");
+    height: 150px;
+}
+/* to display menu items RHS aligned*/
+nav > ul {
+    float: right;
+}
+/* to display meun items without bullet points*/
+nav > ul > li {
+    display: inline;
+    list-style-type: none;
+}
+nav > ul > li > a {
+    color: white;
+    font-style: bold;
+    text-decoration: none;
+    padding: 1vw;
+}
+/* to display top menu navigation with underline upon hover over */
+nav > ul > li > a:hover {
+    text-decoration: underline;
+}
+/* all h1 main headings are red across all pages */
+h1 {
+    color: red;
+}
+/* all h4 headings have been changed from red to green and now underlined in Assignment 4, bigger font size than standard - used in the menu page but can't use h3, as h3 is only colour black */
+h4 {
+    color: green;
+    font-size: 20px;
+    text-decoration: underline;
+}
+/* this is h2 heading on the home page but bigger than standard h2 */
+#welcometitle {
+    font-size: 20px;
+}
+/* this is <p> text on the home page but bigger than standard <p> */
+#welcometext {
+    font-size: 17px;
+}
+/* hours text is used in pages Hours and Contact. With page Contact not including <main>, it needs a separate identification element to centre the text */
+#hours {
+    text-align: center;
+}
+/* links on the home page to display bold upon hover over and blue */
+#links a:hover {
+    font-weight: 700;
+}
+#links p, a {
+    color: blue;
+    font-style: bold;
+}
+/* home images design layout */
+.homeimgs {
+    display: inline;
+    padding: 1vw;
+}
+footer > p {
+    font-size: 10px;
+    text-align: center;
+}
+hr {
+    margin: 15px 0;
+}
+#menulinks {
+    width: 235px;
+    margin: 0 auto;
+}
+/* style defining the toggle links on the menu page between the Food page and the Beverages page */
+#menulinks p, a {
+    color: rgb(134, 151, 248);
+    font-style: bold;
+    padding: 10px;
+    display: inline-block;
+}
+/* additional styling for the toggle links on the menu page for Food and Beverages pages to bold the links upon hover over */
+#menulinks a:hover {
+    font-weight: 700;
+}
+/* table styling for the Beverages page */
+th {
+    text-align: left;
+    color: red;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+/* column styling for the Contacts page - 2 equal columns that float next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 150px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#calender {
+    width: 100%;
+    position: relative;
+}
+#reservationsform {
+    width: 100%;
+    position: relative;
+}
+/* style defining the toggle links on the menu page between the Food page and the Beverages page */
+#rosterweek a, #rosterweek p {
+    color: red;
+    font-style: bold;
+    padding: 10px;
+    display: inline-block;
+}
+/* additional styling for the toggle links on the menu page for Food and Beverages pages to bold the links upon hover over */
+#rosterweek a:hover {
+    font-weight: 700;
+}
+#tablefont td {
+    font-size: 12px;
+}
